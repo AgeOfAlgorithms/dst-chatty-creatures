@@ -1,0 +1,52 @@
+[h1]Gummy the Slime - the AI slime you can talk to[/h1]
+
+A little green slime lives near the portal: a cheerful, curious, slightly naive wobble of jelly. Talk to it the way you'd talk to a friend - in the chat, or out loud - and it [b]understands you, answers you, and does what you ask[/b].
+
+[h2]💬 AI conversations[/h2]
+[list]
+[*]Ask it anything. It answers in character - a happy little blob who loves berries, carrots and shiny things, and is scared of spiders, hounds and the dark.
+[*]It knows what's going on around it: who is near, the time of day, the rain and the seasons, its health, that you just fed it or that something hit it.
+[*]It decides for itself when to join a conversation and when chatter isn't about it. Goodbyes end a talk; "shh" makes it whisper.
+[*]Its replies appear in speech bubbles over its head, with a squishy little voice of its own, heard by everyone nearby.
+[/list]
+
+[h2]🎤 Just say it[/h2]
+[list]
+[*][i]"Gummy, follow me"[/i], [i]"stay here"[/i], [i]"come here"[/i], [i]"calm down"[/i], [i]"show us a dance"[/i]...
+[*]It understands normal sentences, not only keywords: [i]"tell Wendy dinner's ready by the fire"[/i] - it hops over to Wendy and tells her, saying who it's from.
+[*]Speak with your microphone (speech to text through Koetama) or type in the chat - both work.
+[/list]
+
+[h2]🟢 A real little creature[/h2]
+[list]
+[*][b]Hops after you[/b] - it follows you around, comes when called, and stays where you tell it to.
+[*][b]Fight or flight[/b] - when something attacks you or it, it decides whether to help or to run. Small and timid, it keeps away from monsters on its own. Only the host can order it to attack something, and it never attacks players.
+[*][b]Feelings[/b] - happy, sad, surprised, angry, a dance, a nap; it shows them with its whole wobbly body.
+[*][b]Feed it[/b] - give it food and it heals, or ask it to eat the berries lying on the ground.
+[*][b]Messages[/b] - it carries messages to other players and to other chatty creatures.
+[*][b]Other chatty creatures[/b] - it hears them and chats with them (try the [url=https://steamcommunity.com/workshop/filedetails/?id=3834525969]Gilbert the Salamander[/url]).
+[*][b]Comes back[/b] - a slime that died returns after a few days (a setting).
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3819346216]Proximity Comms (Text and Voice Chat)[/url] - turn it on as well: Gummy hears and speaks through it.
+[*][b]For AI conversations[/b], an [b]admin[/b] runs the free [url=https://github.com/AgeOfAlgorithms/koetama]Koetama[/url] app with a language model set up (your own API key - OpenAI, Anthropic, DeepSeek, Gemini... - or a local model). Other players need nothing for that.
+[*][b]For voice[/b], whoever speaks needs Koetama for speech to text. Typing works for everyone.
+[*]Without an AI, Gummy still lives: it hops about, obeys plain commands said with its name (follow, stay, come, stop, dance) and blubs.
+[/list]
+
+[h2]Settings[/h2]
+[list]
+[*][b]Slimes[/b] - how many live near the portal (0-5).
+[*][b]It listens to[/b] - lines with its name, or everything said near it.
+[*][b]Greets players[/b] - says hello when someone comes near.
+[*][b]Talks with others[/b] - how many lines in a row it chats with other chatty creatures.
+[*][b]Comes back after[/b] - the days before a slime that died returns.
+[/list]
+
+[h2]Multiplayer[/h2]
+Everyone on the server needs the mod (the server downloads it for them). Everyone sees the same slime, and anyone nearby can talk to it.
+
+[h2]AI notice[/h2]
+Gummy's replies are written live by an AI model. What players say near it is sent to the AI service the admin chose in Koetama, and the admin pays for it (Koetama has a monthly budget limit). Players should know this before they chat near it.

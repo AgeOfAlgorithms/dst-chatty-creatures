@@ -1,0 +1,74 @@
+{
+  "name": "chattyslime",
+  "group": "slime",
+  "style": "A tiny cute jelly slime creature from a whimsical hand-drawn cartoon survival game. Wet, squishy and bubbly, a high soft voice, no words, no music.",
+  "events": {
+    "land": {
+      "prompt": "A small soft wet squelch: a little jelly blob lands after a hop, a gentle squishy plop.",
+      "seconds": 0.8,
+      "volume_db": -6,
+      "pitch_rand": 0.12,
+      "crop": 0.4
+    },
+    "talk": {
+      "prompt": "A tiny jelly creature babbles cheerfully in its own squishy language, quick bubbly gurgling chirps and blubs like little bubbles popping.",
+      "seconds": 1.6,
+      "takes": 6,
+      "volume_db": -3,
+      "pitch_rand": 0.08
+    },
+    "happy": {
+      "prompt": "A tiny cute slime squeals with joy, a bubbly giggle and a happy wobbly wet trill.",
+      "seconds": 1.4,
+      "pitch_rand": 0.06
+    },
+    "sad": {
+      "prompt": "A tiny cute slime whimpers sadly, a soft wet descending coo and a sniffle.",
+      "seconds": 1.4
+    },
+    "surprised": {
+      "prompt": "A tiny cute slime gasps in surprise, a squeaky wet 'oop!' with a bloop.",
+      "seconds": 0.9,
+      "crop": 0.9
+    },
+    "angry": {
+      "prompt": "A tiny cute slime grumbles angrily, a small bubbly gurgling growl, more cute than scary.",
+      "seconds": 1.2
+    },
+    "eat": {
+      "prompt": "A small jelly creature slurps up food and swallows it with a wet gulp.",
+      "seconds": 1.0,
+      "crop": 1.0
+    },
+    "attack_voice": {
+      "prompt": "A tiny cute slime's fierce squeaky battle cry, a quick gurgly 'hyah!'",
+      "seconds": 0.8,
+      "crop": 0.8
+    },
+    "attack": {
+      "prompt": "A quick wet sticky splat, a little jelly blob smacks into something.",
+      "seconds": 0.6,
+      "pitch_rand": 0.1,
+      "crop": 0.45
+    },
+    "hurt": {
+      "prompt": "A tiny cute creature yelps in pain, a short squeaky wet 'eep!' and a wobble.",
+      "seconds": 0.8,
+      "pitch_rand": 0.06,
+      "crop": 0.75
+    },
+    "die": {
+      "prompt": "A tiny jelly slime lets out a last weak sad gurgle and collapses into a puddle with a long deflating squelch.",
+      "seconds": 2.0
+    },
+    "sleep": {
+      "prompt": "A tiny creature sleeps, soft little snores with tiny bubbles popping on each breath.",
+      "seconds": 2.5,
+      "volume_db": -6
+    },
+    "wake": {
+      "prompt": "A tiny creature wakes up with a small squeaky yawn and a bubbly stretch.",
+      "seconds": 1.4
+    }
+  }
+}

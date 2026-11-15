@@ -1,0 +1,53 @@
+[h1]Gilbert the Salamander - the AI axolotl you can talk to[/h1]
+
+A giant river salamander lives by the pond nearest the portal: bigger than you, with an axolotl's wide smile and feathery red gills. Talk to him the way you'd talk to anyone - in the chat, or out loud - and he [b]understands you, answers you, and does what you ask[/b].
+
+[h2]💬 AI conversations[/h2]
+[list]
+[*]Ask him anything. He answers in character - an old, gentle, slightly sleepy giant with a dry sense of humour, who knows the swamps, the rain, the frogs and the fish.
+[*]He knows what's going on around him: who is near, the time of day, the rain and the seasons, his health, that you just fed him or that something hit him.
+[*]He decides for himself when to join a conversation and when chatter isn't about him. Goodbyes end a talk; "shh" makes him whisper.
+[*]His replies appear in speech bubbles over his head, with a low rumbling voice of his own, heard by everyone nearby.
+[/list]
+
+[h2]🎤 Just say it[/h2]
+[list]
+[*][i]"Gilbert, follow me"[/i], [i]"stay here"[/i], [i]"come here"[/i], [i]"calm down"[/i], [i]"show us a dance"[/i]...
+[*]He understands normal sentences, not only keywords: [i]"go tell Wendy the pigs are waiting at the base"[/i] - he walks over to Wendy and tells her, saying who it's from.
+[*]Speak with your microphone (speech to text through Koetama) or type in the chat - both work.
+[/list]
+
+[h2]🦎 A real creature[/h2]
+[list]
+[*][b]A body that bends[/b] - his back half follows his front like a snake's, drawn at every bend, and you bump into his whole length, not just his middle.
+[*][b]Fight or flight[/b] - when something attacks you or him, he decides whether to stand and fight or to run. Badly hurt, he flees on his own. Only the host can order him to attack something, and he never attacks players.
+[*][b]He drops his tail[/b] - in real danger he can shed his tail, as salamanders do. It flops about on the ground with a life of its own, the attackers go for it, and he gets away. It grows back in a day.
+[*][b]Feelings[/b] - happy, sad, surprised, angry, a dance, a nap; he shows them with his whole body, gills and all.
+[*][b]Feed him[/b] - give him food (fish is his favourite) and it heals him.
+[*][b]Messages[/b] - he carries messages to other players and to other chatty creatures.
+[*][b]Other chatty creatures[/b] - he hears them and chats with them (try the [url=https://steamcommunity.com/workshop/filedetails/?id=3834526151]Gummy the Slime[/url]).
+[*][b]A big creature[/b] - 900 health and a strong bite. Killed, he leaves plenty of meat, frog legs, and now and then a fish he swallowed. A new one comes back after a few days (a setting).
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3819346216]Proximity Comms (Text and Voice Chat)[/url] - turn it on as well: Gilbert hears and speaks through it.
+[*][b]For AI conversations[/b], an [b]admin[/b] runs the free [url=https://github.com/AgeOfAlgorithms/koetama]Koetama[/url] app with a language model set up (your own API key - OpenAI, Anthropic, DeepSeek, Gemini... - or a local model). Other players need nothing for that.
+[*][b]For voice[/b], whoever speaks needs Koetama for speech to text. Typing works for everyone.
+[*]Without an AI, Gilbert still lives: he wanders by his pond, obeys plain commands said with his name (follow, stay, come, stop, dance) and rumbles.
+[/list]
+
+[h2]Settings[/h2]
+[list]
+[*][b]Salamanders[/b] - how many live by the pond (0-3).
+[*][b]It listens to[/b] - lines with its name, or everything said near it.
+[*][b]Greets players[/b] - says hello when someone comes near.
+[*][b]Talks with others[/b] - how many lines in a row it chats with other chatty creatures.
+[*][b]Comes back after[/b] - the days before a salamander that died returns.
+[/list]
+
+[h2]Multiplayer[/h2]
+Everyone on the server needs the mod (the server downloads it for them). Everyone sees the same salamander, and anyone nearby can talk to him.
+
+[h2]AI notice[/h2]
+Gilbert's replies are written live by an AI model. What players say near him is sent to the AI service the admin chose in Koetama, and the admin pays for it (Koetama has a monthly budget limit). Players should know this before they chat near him.

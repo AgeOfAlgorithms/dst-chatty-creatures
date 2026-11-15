@@ -1,0 +1,8 @@
+[h2]0.1.1[/h2]
+[list]
+[*]A new icon, from Gummy's own in-game look.
+[*]Gummy can eat food lying on the ground when you ask, and no longer gets stuck going for food in the water.
+[*]"Follow me", "come here" and "stay here" said with its name always work, even when the AI forgets to act.
+[*]It calls you by name or "friend", never "host".
+[*]Faster (it keeps up with you) and stronger: 250 health, 30 damage a bite.
+[/list]

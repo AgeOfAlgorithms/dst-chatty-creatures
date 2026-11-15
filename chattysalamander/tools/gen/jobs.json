@@ -1,0 +1,66 @@
+[
+ {
+  "out": "heroB512.png",
+  "refs": [
+   "hero_frog.png",
+   "hero_koalefant.png",
+   "hero_glommer.png"
+  ],
+  "size": [
+   1328,
+   800
+  ],
+  "seed": 512,
+  "prompt": "A new creature drawn in exactly the art style of the creatures in these images (the game Don't Starve Together by Klei Entertainment): thick scratchy uneven black ink outlines with dry brush strokes; dark, muted, desaturated colours; grungy painted texture with scratchy hatching in the shadows; small glossy wet highlights. The creature: a giant axolotl salamander, as big as a cow, shaped exactly like a real axolotl or newt: a long, low, smooth body close to the ground like a lizard's, a very wide, flat, rounded head with a broad blunt snout and a long gentle smiling mouth line, tiny round black eyes on the sides of its head, and behind the head on each side three long feathery gill stalks like little red ferns or feather dusters, fringed with fine filaments. No ears, no fur, no horns, no spikes: smooth slimy wet skin, murky olive-brown with darker blotches, a pale cream belly. Four short sprawling legs with four splayed rounded toes each. A long thick tail, flattened sideways like a newt's paddle, with a fin running along its top and bottom, held out straight behind it. Seen exactly from the side, facing right, full body including the whole tail, one creature only, plain flat white background, no ground, no shadow, no text.",
+  "note": "(renders of the game's frog, koalefant, glommer: tools/gen/dstref.py)"
+ },
+ {
+  "out": "clean531.png",
+  "refs": [
+   "heroB512.png"
+  ],
+  "size": null,
+  "seed": 531,
+  "prompt": "Edit image 1: remove the two ear-like flaps behind the head completely; there the smooth spotted skin of the neck and the back of the head continues, with the scratchy black outline. Keep everything else exactly the same: the same creature, pose, position, size, face, eye, smile, body, legs, tail, colours, spots and drawing style. Plain flat white background."
+ },
+ {
+  "out": "r_nolegs.png",
+  "refs": [
+   "clean531.png"
+  ],
+  "size": null,
+  "seed": 552,
+  "prompt": "Edit image 1: remove all four legs completely. The pale belly continues smoothly underneath where the legs were, with the scratchy black outline along it. Keep everything else exactly the same and exactly where it is: the same size, pose, drawing style, colours and spots. Plain flat white background."
+ },
+ {
+  "out": "r_core.png",
+  "refs": [
+   "clean531.png"
+  ],
+  "size": null,
+  "seed": 551,
+  "prompt": "Edit image 1: remove the head, all four legs and the tail. Only the body's trunk is left, between the neck and the hips, its neck end, its hip end and its belly rounded off smoothly with the scratchy black outline, with its spots and pale belly. Keep everything else exactly the same and exactly where it is: the same size, pose, drawing style, colours and spots. Plain flat white background."
+ },
+ {
+  "out": "gill.png",
+  "refs": [
+   "heroC521.png"
+  ],
+  "size": [
+   512,
+   768
+  ],
+  "seed": 533,
+  "prompt": "Only one single feathery red gill frond like the axolotl gills of the creature in image 1, on its own: a thin curved stem fringed on both sides with many fine red filaments, like a little red fern or feather, pointing up, drawn in exactly the style of image 1 (scratchy black ink outline, dark red and coral colours). Only that one frond, centred and large, on a plain flat white background. Nothing else: no creature, no head, no text."
+ },
+ {
+  "out": "heroC521.png",
+  "refs": [
+   "heroB512.png",
+   "heroB511.png"
+  ],
+  "size": null,
+  "seed": 521,
+  "prompt": "Edit image 1: replace the two ear-like flaps behind the head with axolotl gills: on the side of the neck behind the head, three long thin feathery gill stalks fanning out upwards and backwards, each a thin stem fringed with many fine red filaments like a little red fern or a feather, dark red and coral, drawn with the same scratchy black ink outlines. Keep everything else exactly the same: the same creature, pose, face, eye, smile, body, legs, tail, colours, spots and drawing style. Plain flat white background."
+ }
+]

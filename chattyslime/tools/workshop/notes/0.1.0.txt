@@ -1,0 +1,2 @@
+[h2]0.1.0[/h2]
+First release (friends only for now): Gummy, a little AI slime you can talk to, through Proximity Comms.

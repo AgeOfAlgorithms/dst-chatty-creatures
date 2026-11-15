@@ -1,0 +1,2 @@
+[h2]0.1.0[/h2]
+First release (friends only for now): Gilbert, a giant AI salamander you can talk to, through Proximity Comms.

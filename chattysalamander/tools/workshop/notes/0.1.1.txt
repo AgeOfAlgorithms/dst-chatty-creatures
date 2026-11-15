@@ -1,0 +1,8 @@
+[h2]0.1.1[/h2]
+[list]
+[*]A new icon.
+[*]Gilbert can eat food lying on the ground when you ask, and no longer gets stuck going for food in the water.
+[*]"Follow me", "come here" and "stay here" said with his name always work, even when the AI forgets to act.
+[*]He calls you by name or "friend", never "host".
+[*]No more green thinking bubbles.
+[/list]

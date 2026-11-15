@@ -1,0 +1,404 @@
+[
+ {
+  "out": "slime_c5.png",
+  "refs": [
+   "hero_gelblob.png",
+   "hero_glommer.png",
+   "hero_koalefant.png"
+  ],
+  "size": [
+   1024,
+   1024
+  ],
+  "seed": 5,
+  "note": "(renders of the game's frog, gelblob, glommer, koalefant: tools/gen/dstref.py)",
+  "prompt": "Draw a new creature in exactly the art style of the creatures in these images (the game Don't Starve Together by Klei Entertainment): gothic and murky; thick scratchy uneven black ink outlines with dry brush strokes; dark, muted, desaturated, dirty colours; grungy painted texture with scratchy hatching in the shadows; small glossy highlights. The creature: a small swamp slime made of gooey jelly, shaped like a soft gumdrop: a rounded dome on top, a wide flat bottom whose edge spreads a little on the ground. Murky swamp-green jelly, a little translucent, darker green at the edges and lighter in the middle, a couple of tiny bubbles and a dark seed suspended inside, glossy wet highlights. Two large round white eyes with small black pupils, close together on the front of the jelly, and a small simple mouth. A tiny two-leaf sprout grows from the top. It has no arms, no legs, no toes and no skin pattern: just jelly. Three-quarter side view facing right, full body, one creature only, plain flat white background, no ground, no shadow, no text."
+ },
+ {
+  "out": "p_body.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": null,
+  "seed": 11,
+  "prompt": "Edit image 1: remove the two eyes, the mouth, the leaf sprout on top and the green puddle on the ground. Where they were, continue the jelly smoothly. The bottom of the blob is closed and gently rounded, with its scratchy black outline going all the way round. Keep the drawing style, colours, translucency, bubbles, the dark seed, the glossy highlights and the outline exactly the same. Plain flat white background."
+ },
+ {
+  "out": "b_squash.png",
+  "refs": [
+   "p_body.png"
+  ],
+  "size": null,
+  "seed": 41,
+  "prompt": "Edit image 1: the same jelly slime squashed down, as if it just landed hard: much lower and wider, its dome flattened, its sides bulging out, the brim at its bottom spread wider. Keep exactly the same drawing style, line work, colours, translucency, the bubbles and the dark seed inside, and the glossy highlights. One blob only, no face, plain flat white background, no ground shadow."
+ },
+ {
+  "out": "t_eye.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 31,
+  "prompt": "One single cartoon eye of the creature in image 1, drawn in exactly its style: a round white eyeball with a thick scratchy black ink outline and a small black pupil with a tiny white glint. Only one eye, centred, large, on a plain flat white background. Nothing else."
+ },
+ {
+  "out": "t_mouth.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 32,
+  "prompt": "One single cartoon mouth for the jelly slime in image 1, drawn in exactly its style: an open talking mouth that is just a dark green-black hole in the jelly, with a thick scratchy black ink outline, a glossy wet highlight inside, no lips, no teeth, no tongue. Only the mouth, centred, large, on a plain flat white background. Nothing else."
+ },
+ {
+  "out": "hero_happy.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": null,
+  "seed": 801,
+  "prompt": "Edit image 1: make the slime look very happy: both of its eyes looking straight at us, wide open and bright, and a big open happy smile under them. Keep everything else exactly the same: the same slime, sprout, seed, bubbles, colours, size, position and drawing style. Plain flat white background."
+ },
+ {
+  "out": "b_squash2.png",
+  "refs": [
+   "b_squash.png"
+  ],
+  "size": null,
+  "seed": 46,
+  "prompt": "Edit image 1: squash the same jelly slime down even more, as if it was hit from above: half as tall, much wider, its dome nearly flat, its sides bulging out. Keep exactly the same drawing style, line work, colours, translucency, bubbles, seed and glossy highlights. One blob only, no face, plain flat white background."
+ },
+ {
+  "out": "b_splat.png",
+  "refs": [
+   "p_body.png"
+  ],
+  "size": null,
+  "seed": 45,
+  "prompt": "Edit image 1: the same jelly slime melted down into a very low, very wide, flat lumpy puddle of jelly on the ground, only a quarter as tall, with the seed lying in it. Keep exactly the same drawing style, line work, colours, translucency and glossy highlights. One puddle only, no face, plain flat white background."
+ },
+ {
+  "out": "eye_open.png",
+  "refs": [
+   "t_eye.png"
+  ],
+  "size": null,
+  "seed": 101,
+  "prompt": "Edit image 1: remove the black pupil: the eye is an empty white eyeball with its scratchy black outline. Keep the same size, position, scratchy black ink style and line thickness. Plain flat white background."
+ },
+ {
+  "out": "eye_pupil.png",
+  "refs": [
+   "t_eye.png"
+  ],
+  "size": null,
+  "seed": 110,
+  "prompt": "Edit image 1: remove the white eyeball and its outline, leaving only the round black pupil with its tiny white glint, made a bit bigger. Plain flat white background."
+ },
+ {
+  "out": "eye2_closed.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 121,
+  "prompt": "One single closed cartoon eye: a thick curved black line shaped like a U (a smile curve), drawn in exactly the scratchy ink style of the eyes of the creature in image 1 (thick, uneven, dry-brush black ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no eye, no circle, no face, no text."
+ },
+ {
+  "out": "eye2_happy.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 122,
+  "prompt": "One single happy closed cartoon eye: a thick curved black arc shaped like an upside-down U, like a rainbow, drawn in exactly the scratchy ink style of the eyes of the creature in image 1 (thick, uneven, dry-brush black ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no eye, no circle, no face, no text."
+ },
+ {
+  "out": "eye2_squeeze.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 123,
+  "prompt": "One single cartoon eye squeezed shut: a thick black sideways V shape pointing to the right, like a > sign, drawn in exactly the scratchy ink style of the eyes of the creature in image 1 (thick, uneven, dry-brush black ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no eye, no circle, no face, no text."
+ },
+ {
+  "out": "eye2_dead.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 124,
+  "prompt": "One single cartoon dead eye: a thick black X cross, drawn in exactly the scratchy ink style of the eyes of the creature in image 1 (thick, uneven, dry-brush black ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no eye, no circle, no face, no text."
+ },
+ {
+  "out": "sprout_wilt.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 613,
+  "prompt": "Only the small two-leaf sprout from the top of the creature in image 1, on its own, wilted: a short thin green stem bending over to the right, its two dark muted green leaves drooping and sagging, in exactly the drawing style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_bubble.png",
+  "refs": [
+   "fx_drop.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 701,
+  "prompt": "One single round bubble of green jelly goo, a perfect little ball, translucent with a bright glossy highlight, drawn in exactly the style of image 1: the same green jelly goo, the same scratchy black ink outline and glossy highlight. Only that, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no plant, no text."
+ },
+ {
+  "out": "fx_drop.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 614,
+  "prompt": "One single small drop of the creature's green jelly goo, shaped like a teardrop pointing up, in exactly the drawing style of image 1 (the game Don't Starve Together: scratchy black ink outline, muted colours, a glossy highlight). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_heart.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 617,
+  "prompt": "One small red cartoon heart, slightly lopsided, in exactly the drawing style of image 1 (the game Don't Starve Together: scratchy black ink outline, muted colours, a glossy highlight). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_lump.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 622,
+  "prompt": "One small dark brown lumpy piece of half-eaten food, roundish, in exactly the drawing style of image 1 (the game Don't Starve Together: scratchy black ink outline, muted colours, a glossy highlight). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_note.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 618,
+  "prompt": "One small black music note (a quaver), in exactly the drawing style of image 1 (the game Don't Starve Together: scratchy black ink outline, muted colours, a glossy highlight). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_puddle.png",
+  "refs": [
+   "fx_drop.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 703,
+  "prompt": "One small flat puddle of green jelly goo on the ground, seen from the side: a very low, wide, flat oval blob, drawn in exactly the style of image 1: the same green jelly goo, the same scratchy black ink outline and glossy highlight. Only that, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no plant, no text."
+ },
+ {
+  "out": "fx_scribble.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 620,
+  "prompt": "One angry tangled scribble: a messy ball of thick scratchy black lines, the cartoon sign of anger, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "fx_splash.png",
+  "refs": [
+   "fx_drop.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 702,
+  "prompt": "One small splash of green jelly goo landing on the ground, seen from the side: a low wide crown of goo with a few small droplets flying up out of it, drawn in exactly the style of image 1: the same green jelly goo, the same scratchy black ink outline and glossy highlight. Only that, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no plant, no text."
+ },
+ {
+  "out": "fx_zzz.png",
+  "refs": [
+   "slime_c5.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 619,
+  "prompt": "Three cartoon letter Z's in a little rising diagonal row from small to big, pale cream with black outlines, the sign of sleeping, in exactly the drawing style of image 1 (the game Don't Starve Together: scratchy black ink outline, muted colours, a glossy highlight). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_chomp.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 605,
+  "prompt": "One single cartoon mouth clamped shut: a wide thick black zigzag horizontal line with four sharp zigs, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_flat.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 603,
+  "prompt": "One single cartoon mouth: a short thick black straight horizontal line, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_frown.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 602,
+  "prompt": "One single cartoon frowning mouth: a thick black curved line shaped like a wide shallow upside-down smile, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_gape.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 611,
+  "prompt": "One single huge cartoon mouth opened as wide as it goes for a big bite, seen from the front: a very large rounded opening, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, with two strings of green goo stretching from top to bottom inside it, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_grin.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 609,
+  "prompt": "One single cartoon grinning mouth seen from the front: a wide crescent-shaped opening curving up at both ends like a big smile, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_o.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 608,
+  "prompt": "One single cartoon mouth seen from the front: a small round O-shaped opening, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_smile.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 601,
+  "prompt": "One single cartoon smiling mouth: a thick black curved line shaped like a wide shallow smile, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_talk.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 606,
+  "prompt": "One single cartoon open mouth seen from the front: a wide oval opening, wider than tall, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_talk_wide.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 607,
+  "prompt": "One single cartoon open mouth seen from the front: a big D-shaped opening, flat along the top and round below, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_wavy.png",
+  "refs": [
+   "eye2_closed.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 604,
+  "prompt": "One single nervous cartoon mouth: a thick black wavy wobbly horizontal line with three small waves, drawn in exactly the scratchy dry-brush black ink style of image 1 (thick, uneven ink line, a few loose hairline strokes along it). Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ },
+ {
+  "out": "mouth_yawn.png",
+  "refs": [
+   "t_mouth.png"
+  ],
+  "size": [
+   512,
+   512
+  ],
+  "seed": 610,
+  "prompt": "One single cartoon yawning mouth seen from the front: a tall oval opening, taller than wide, filled with a dark green-black inside with a small glossy wet highlight, outlined in a thick scratchy black ink line; no lips, no teeth, no tongue, in exactly the style of image 1. Only that one shape, centred and large, on a plain flat white background. Nothing else: no creature, no slime, no face, no eyes, no text."
+ }
+]

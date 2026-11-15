@@ -1,0 +1,70 @@
+{
+  "name": "chattysalamander",
+  "group": "salamander",
+  "style": "A big pink axolotl salamander creature from a whimsical hand-drawn cartoon survival game: powerful but cute, a warm throaty amphibian voice with chirps and croaks, no words, no music.",
+  "events": {
+    "step": {
+      "prompt": "A single soft damp padded footstep of a heavy amphibian creature on earth.",
+      "seconds": 0.6,
+      "takes": 5,
+      "volume_db": -6,
+      "pitch_rand": 0.1,
+      "crop": 0.3
+    },
+    "talk": {
+      "prompt": "A friendly axolotl creature talks in its own language, warm throaty chirps, croaky trills and soft warbles.",
+      "seconds": 1.8,
+      "takes": 6,
+      "volume_db": -3,
+      "pitch_rand": 0.06
+    },
+    "happy": {
+      "prompt": "A big cute axolotl creature makes a happy rolling chirp and a bright croaky trill.",
+      "seconds": 1.4,
+      "pitch_rand": 0.05
+    },
+    "sad": {
+      "prompt": "A big cute amphibian creature whines sadly, a soft low mournful croon.",
+      "seconds": 1.6
+    },
+    "surprised": {
+      "prompt": "A startled amphibian creature lets out a sharp surprised chirp and a gulp.",
+      "seconds": 0.9,
+      "crop": 0.9
+    },
+    "angry": {
+      "prompt": "A big amphibian creature hisses and growls, a wet throaty warning hiss, fierce but not monstrous.",
+      "seconds": 1.4
+    },
+    "eat": {
+      "prompt": "A big creature chomps food and swallows it, a wet crunchy munch and a gulp.",
+      "seconds": 1.2,
+      "crop": 1.1
+    },
+    "attack": {
+      "prompt": "A quick fierce snapping bite with a short throaty growl, jaws snapping shut.",
+      "seconds": 0.9,
+      "pitch_rand": 0.06,
+      "crop": 0.7
+    },
+    "hurt": {
+      "prompt": "A big cute amphibian creature yelps in pain, a short croaky squeal.",
+      "seconds": 0.9,
+      "pitch_rand": 0.05,
+      "crop": 0.9
+    },
+    "die": {
+      "prompt": "A big amphibian creature lets out a long fading mournful croak and slumps to the ground with a soft thud.",
+      "seconds": 2.4
+    },
+    "sleep": {
+      "prompt": "A big creature sleeps, slow soft wet snoring breaths with a gentle croak.",
+      "seconds": 2.8,
+      "volume_db": -6
+    },
+    "wake": {
+      "prompt": "A big creature wakes up with a long croaky yawn and a soft grumble.",
+      "seconds": 1.6
+    }
+  }
+}

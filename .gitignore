@@ -1,0 +1,9 @@
+# Proximity Comms has its own repo (github.com/AgeOfAlgorithms/dst-proximity-comms)
+/proxcomms/
+build/
+dist/
+exported/
+__pycache__/
+*.pyc
+# (the Blender renders before post-processing: tools/blender/sal_render.py makes them again)
+/chattysalamander/art/parts3d/raw/
