@@ -51,3 +51,5 @@ Everyone on the server needs the mod (the server downloads it for them). Everyon
 
 [h2]AI notice[/h2]
 Gilbert's replies are written live by an AI model. What players say near him is sent to the AI service the admin chose in Koetama, and the admin pays for it (Koetama has a monthly budget limit). Players should know this before they chat near him.
+
+MIT License. Source: [url=https://github.com/AgeOfAlgorithms/dst-chatty-creatures]github.com/AgeOfAlgorithms/dst-chatty-creatures[/url]
